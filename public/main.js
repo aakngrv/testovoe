@@ -1,1 +1,3 @@
-console.log(423)
+$("button").click(function(){
+  $("li").toggleClass("open");
+});
